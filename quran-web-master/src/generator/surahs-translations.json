@@ -1,0 +1,1831 @@
+[
+    {
+        "number": 1,
+        "name": "Al-Fatihah",
+        "translations": [
+            { "language": "en", "translation": "The Opener" },
+            { "language": "id", "translation": "Pembuka" },
+            { "language": "bn", "translation": "প্রথম সূরা" },
+            { "language": "de", "translation": "Die Eröffnende" },
+            { "language": "es", "translation": "La Apertura" },
+            { "language": "fr", "translation": "L'Introductrice" },
+            { "language": "hi", "translation": "प्रारंभ" },
+            { "language": "it", "translation": "A Introdutória" },
+            { "language": "ja", "translation": "開端" },
+            { "language": "ko", "translation": "개시" },
+            { "language": "ku", "translation": "Destpêk" },
+            { "language": "ml", "translation": "ആരംഭം" },
+            { "language": "ru", "translation": "Открывающая" },
+            { "language": "tr", "translation": "Açılış" },
+            { "language": "nl", "translation": "De Opening" },
+            { "language": "ar", "translation": "الفاتحة" }
+        ]
+    },
+    {
+        "number": 2,
+        "name": "Al-Baqarah",
+        "translations": [
+            { "language": "en", "translation": "The Cow" },
+            { "language": "id", "translation": "Sapi Betina" },
+            { "language": "bn", "translation": "গাভী" },
+            { "language": "de", "translation": "Die Rindertier" },
+            { "language": "es", "translation": "La Vaca" },
+            { "language": "fr", "translation": "La Vache" },
+            { "language": "hi", "translation": "गाय" },
+            { "language": "it", "translation": "La Mucca" },
+            { "language": "ja", "translation": "牛" },
+            { "language": "ko", "translation": "소" },
+            { "language": "ku", "translation": "Ga" },
+            { "language": "ml", "translation": "പശു" },
+            { "language": "ru", "translation": "Корова" },
+            { "language": "tr", "translation": "Süt" },
+            { "language": "nl", "translation": "De Koe" },
+            { "language": "ar", "translation": "البقرة" }
+        ]
+    },
+    {
+        "number": 3,
+        "name": "Ali 'Imran",
+        "translations": [
+            { "language": "en", "translation": "Family of Imran" },
+            { "language": "id", "translation": "Keluarga Imran" },
+            { "language": "bn", "translation": "ইমরানের পরিবার" },
+            { "language": "de", "translation": "Die Familie Imran" },
+            { "language": "es", "translation": "La Familia de Imran" },
+            { "language": "fr", "translation": "La Famille d'Imran" },
+            { "language": "hi", "translation": "इमरान का परिवार" },
+            { "language": "it", "translation": "La Famiglia di Imran" },
+            { "language": "ja", "translation": "イムランの家族" },
+            { "language": "ko", "translation": "임란의 가족" },
+            { "language": "ku", "translation": "Malbata Îmran" },
+            { "language": "ml", "translation": "ഇംറാന്റെ കുടുംബം" },
+            { "language": "ru", "translation": "Семья Имрана" },
+            { "language": "tr", "translation": "'Imran Ailesi" },
+            { "language": "nl", "translation": "De Familie van Imran" },
+            { "language": "ar", "translation": "آل عمران" }
+        ]
+    },
+    {
+        "number": 4,
+        "name": "An-Nisa'",
+        "translations": [
+            { "language": "en", "translation": "The Women" },
+            { "language": "id", "translation": "Wanita" },
+            { "language": "bn", "translation": "মহিলা" },
+            { "language": "de", "translation": "Die Frauen" },
+            { "language": "es", "translation": "Las Mujeres" },
+            { "language": "fr", "translation": "Les Femmes" },
+            { "language": "hi", "translation": "महिलाएं" },
+            { "language": "it", "translation": "Le Donne" },
+            { "language": "ja", "translation": "女性" },
+            { "language": "ko", "translation": "여성" },
+            { "language": "ku", "translation": "Jin" },
+            { "language": "ml", "translation": "സ്ത്രീകൾ" },
+            { "language": "ru", "translation": "Женщины" },
+            { "language": "tr", "translation": "'Kadınlar'" },
+            { "language": "nl", "translation": "De Vrouwen" },
+            { "language": "ar", "translation": "النساء" }
+        ]
+    },
+    {
+        "number": 5,
+        "name": "Al-Ma'idah",
+        "translations": [
+            { "language": "en", "translation": "The Table Spread" },
+            { "language": "id", "translation": "Hidangan" },
+            { "language": "bn", "translation": "তালিকা" },
+            { "language": "de", "translation": "Der gedeckte Tisch" },
+            { "language": "es", "translation": "La Mesa Servida" },
+            { "language": "fr", "translation": "La Table Servie" },
+            { "language": "hi", "translation": "परोसा हुआ मेज" },
+            { "language": "it", "translation": "La Tavola Imbandita" },
+            { "language": "ja", "translation": "広げられたテーブル" },
+            { "language": "ko", "translation": "차려진 식탁" },
+            { "language": "ku", "translation": "Xwarina Amade" },
+            { "language": "ml", "translation": "ഒരുക്കിയ മേശ" },
+            { "language": "ru", "translation": "Накрытый стол" },
+            { "language": "tr", "translation": "'Serilmiş Masa'" },
+            { "language": "nl", "translation": "De Gedekte Tafel" },
+            { "language": "ar", "translation": "المائدة" }
+        ]
+    },
+    {
+        "number": 6,
+        "name": "Al-An'am",
+        "translations": [
+            { "language": "en", "translation": "The Cattle" },
+            { "language": "id", "translation": "Binatang Ternak" },
+            { "language": "bn", "translation": "গবাদি পশু" },
+            { "language": "de", "translation": "Das Vieh" },
+            { "language": "es", "translation": "El Ganado" },
+            { "language": "fr", "translation": "Les Bestiaux" },
+            { "language": "hi", "translation": "पशुधन" },
+            { "language": "it", "translation": "Il Bestiame" },
+            { "language": "ja", "translation": "家畜" },
+            { "language": "ko", "translation": "가축" },
+            { "language": "ku", "translation": "Heywanên Kedî" },
+            { "language": "ml", "translation": "കന്നുകാലികൾ" },
+            { "language": "ru", "translation": "Скот" },
+            { "language": "tr", "translation": "Hayvanlar"},
+            { "language": "nl", "translation": "Het Vee" },
+            { "language": "ar", "translation": "الأنعام" }
+        ]
+    },
+    {
+        "number": 7,
+        "name": "Al-A'raf",
+        "translations": [
+            { "language": "en", "translation": "The Elevated Places" },
+            { "language": "id", "translation": "Tempat Tertinggi" },
+            { "language": "bn", "translation": "উঁচু জায়গা" },
+            { "language": "de", "translation": "Die Erhöhten Orte" },
+            { "language": "es", "translation": "Los Lugares Elevados" },
+            { "language": "fr", "translation": "Les Lieux Élevés" },
+            { "language": "hi", "translation": "ऊंचे स्थान" },
+            { "language": "it", "translation": "I Luoghi Elevati" },
+            { "language": "ja", "translation": "高い所" },
+            { "language": "ko", "translation": "높은 곳" },
+            { "language": "ku", "translation": "Cihên Bilind" },
+            { "language": "ml", "translation": "ഉയരം കൂടിയ സ്ഥലങ്ങൾ" },
+            { "language": "ru", "translation": "Возвышенные места" },
+            { "language": "tr", "translation": "Yüksek Yerler" },
+            { "language": "nl", "translation": "De Verheven Plaatsen" },
+            { "language": "ar", "translation": "الأعراف" }
+        ]
+    },
+    {
+        "number": 8,
+        "name": "Al-Anfal",
+        "translations": [
+            { "language": "en", "translation": "The Spoils of War" },
+            { "language": "id", "translation": "Rampasan Perang" },
+            { "language": "bn", "translation": "যুদ্ধলব্ধ সম্পদ" },
+            { "language": "de", "translation": "Die Kriegsbeute" },
+            { "language": "es", "translation": "El Botín de Guerra" },
+            { "language": "fr", "translation": "Le Butin de Guerre" },
+            { "language": "hi", "translation": "युद्ध का माल" },
+            { "language": "it", "translation": "Il Bottino di Guerra" },
+            { "language": "ja", "translation": "戦利品" },
+            { "language": "ko", "translation": "전리품" },
+            { "language": "ku", "translation": "Destkeftiyên Şer" },
+            { "language": "ml", "translation": "യുദ്ധമുതൽ" },
+            { "language": "ru", "translation": "Военная добыча" },
+            { "language": "tr", "translation": "Ganimetler" },
+            { "language": "nl", "translation": "De Oorlogsbuit" },
+            { "language": "ar", "translation": "الأنفال" }
+        ]
+    },
+    {
+        "number": 9,
+        "name": "At-Taubah",
+        "translations": [
+            { "language": "en", "translation": "The Repentance" },
+            { "language": "id", "translation": "Pengampunan" },
+            { "language": "bn", "translation": "তওবা" },
+            { "language": "de", "translation": "Die Buße" },
+            { "language": "es", "translation": "El Arrepentimiento" },
+            { "language": "fr", "translation": "La Repentance" },
+            { "language": "hi", "translation": "तौबा" },
+            { "language": "it", "translation": "Il Pentimento" },
+            { "language": "ja", "translation": "悔悟" },
+            { "language": "ko", "translation": "회개" },
+            { "language": "ku", "translation": "Toba" },
+            { "language": "ml", "translation": "തോബ" },
+            { "language": "ru", "translation": "Покаяние" },
+            { "language": "tr", "translation": "Tevbe" },
+            { "language": "nl", "translation": "De Berouw" },
+            { "language": "ar", "translation": "التوبة" }
+        ]
+    },
+    {
+        "number": 10,
+        "name": "Yunus",
+        "translations": [
+            { "language": "en", "translation": "Jonah" },
+            { "language": "id", "translation": "Yunus" },
+            { "language": "bn", "translation": "ইউনুস" },
+            { "language": "de", "translation": "Jona" },
+            { "language": "es", "translation": "Jonás" },
+            { "language": "fr", "translation": "Jonas" },
+            { "language": "hi", "translation": "यूनुस" },
+            { "language": "it", "translation": "Giona" },
+            { "language": "ja", "translation": "ユヌス" },
+            { "language": "ko", "translation": "유누스" },
+            { "language": "ku", "translation": "Yunus" },
+            { "language": "ml", "translation": "യൂനുസ്" },
+            { "language": "ru", "translation": "Юнус" },
+            { "language": "tr", "translation": "'Yunus'" },
+            { "language": "nl", "translation": "'Yunus'" },
+            { "language": "ar", "translation": "يونس" }
+        ]
+    },
+[
+    {
+        "number": 11,
+        "name": "Hud",
+        "translations": [
+            { "language": "en", "translation": "Hud" },
+            { "language": "id", "translation": "Hud" },
+            { "language": "bn", "translation": "হুদ" },
+            { "language": "de", "translation": "Hud" },
+            { "language": "es", "translation": "Hud" },
+            { "language": "fr", "translation": "Hud" },
+            { "language": "hi", "translation": "हूद" },
+            { "language": "it", "translation": "Hud" },
+            { "language": "ja", "translation": "フード" },
+            { "language": "ko", "translation": "알 헤드 (Hud)" },
+            { "language": "ku", "translation": "هود" },
+            { "language": "ml", "translation": "ഹുദ്" },
+            { "language": "ru", "translation": "Худ" },
+            { "language": "tr", "translation": "'Hud'" },
+            { "language": "nl", "translation": "'Hud'" },
+            { "language": "ar", "translation": "هود" }
+        ]
+    },
+    {
+        "number": 12,
+        "name": "Yusuf",
+        "translations": [
+            { "language": "en", "translation": "Joseph" },
+            { "language": "id", "translation": "Yusuf" },
+            { "language": "bn", "translation": "ইউসুফ" },
+            { "language": "de", "translation": "Joseph" },
+            { "language": "es", "translation": "José" },
+            { "language": "fr", "translation": "Joseph" },
+            { "language": "hi", "translation": "यूसुफ" },
+            { "language": "it", "translation": "Giuseppe" },
+            { "language": "ja", "translation": "ユースフ" },
+            { "language": "ko", "translation": "알 유수프 (Yusuf)" },
+            { "language": "ku", "translation": "ئەیوسُف" },
+            { "language": "ml", "translation": "യൂസഫ്" },
+            { "language": "ru", "translation": "Юсуф" },
+            { "language": "tr", "translation": "'Yusuf'" },
+            { "language": "nl", "translation": "'Yusuf'" },
+            { "language": "ar", "translation": "يوسف" }
+        ]
+    },
+    {
+        "number": 13,
+        "name": "Ar-Ra'd",
+        "translations": [
+            { "language": "en", "translation": "The Thunder" },
+            { "language": "id", "translation": "Guruh" },
+            { "language": "bn", "translation": "বজ্র" },
+            { "language": "de", "translation": "Der Donner" },
+            { "language": "es", "translation": "El Trueno" },
+            { "language": "fr", "translation": "Le Tonnerre" },
+            { "language": "hi", "translation": "गर्जन" },
+            { "language": "it", "translation": "Il Tuono" },
+            { "language": "ja", "translation": "雷" },
+            { "language": "ko", "translation": "알 래드 (Ar-Ra'd)" },
+            { "language": "ku", "translation": "ئەر راعد" },
+            { "language": "ml", "translation": "വിജയം (or thunder)" },
+            { "language": "ru", "translation": "Гроза" },
+            { "language": "tr", "translation": "Gürü" },
+            { "language": "nl", "translation": "De Donder" },
+            { "language": "ar", "translation": "الرعد" }
+        ]
+    },
+    {
+        "number": 14,
+        "name": "Ibrahim",
+        "translations": [
+            { "language": "en", "translation": "Abraham" },
+            { "language": "id", "translation": "Ibrahim" },
+            { "language": "bn", "translation": "ইব্রাহিম" },
+            { "language": "de", "translation": "Abraham" },
+            { "language": "es", "translation": "Abraham" },
+            { "language": "fr", "translation": "Abraham" },
+            { "language": "hi", "translation": "इब्राहीम" },
+            { "language": "it", "translation": "Abramo" },
+            { "language": "ja", "translation": "イブラヒム" },
+            { "language": "ko", "translation": "알 이브라힘 (Ibrahim)" },
+            { "language": "ku", "translation": "ئەبراهیم" },
+            { "language": "ml", "translation": "ഇബ്രാഹിം" },
+            { "language": "ru", "translation": "Ибрахим" },
+            { "language": "tr", "translation": "İbrahim" },
+            { "language": "nl", "translation": "Ibrahim" },
+            { "language": "ar", "translation": "إبراهيم" }
+        ]
+    },
+    {
+        "number": 15,
+        "name": "Al-Hijr",
+        "translations": [
+            { "language": "en", "translation": "Al Hijr" },
+            { "language": "id", "translation": "Hijr" },
+            { "language": "bn", "translation": "হিজর" },
+            { "language": "de", "translation": "Al Hijr" },
+            { "language": "es", "translation": "Al Hijr" },
+            { "language": "fr", "translation": "Al Hijr" },
+            { "language": "hi", "translation": "अल हिज़र" },
+            { "language": "it", "translation": "Al Hijr" },
+            { "language": "ja", "translation": "アル・ヒジャール" },
+            { "language": "ko", "translation": "알 히저" },
+            { "language": "ku", "translation": "ئەل حِجر" },
+            { "language": "ml", "translation": "അൽ ഹിജ്ര്" },
+            { "language": "ru", "translation": "Аль-Хиджр" },
+            { "language": "tr", "translation": "Al-Hijr" },
+            { "language": "nl", "translation": "Al-Hijr" },
+            { "language": "ar", "translation": "الحجر" }
+        ]
+    },
+    {
+        "number": 16,
+        "name": "An-Nahl",
+        "translations": [
+            { "language": "en", "translation": "The Bee" },
+            { "language": "id", "translation": "Lebah" },
+            { "language": "bn", "translation": "মধু" },
+            { "language": "de", "translation": "Die Biene" },
+            { "language": "es", "translation": "La Abeja" },
+            { "language": "fr", "translation": "La Abeille" },
+            { "language": "hi", "translation": "मधु" },
+            { "language": "it", "translation": "La Api" },
+            { "language": "ja", "translation": "蜂" },
+            { "language": "ko", "translation": "알 나хль (An-Nahl)" },
+            { "language": "ku", "translation": "ئەن نحل" },
+            { "language": "ml", "translation": "തേനീ" },
+            { "language": "ru", "translation": "Пчела" },
+            { "language": "tr", "translation": "Arı" },
+            { "language": "nl", "translation": "De B" },
+            { "language": "ar", "translation": "النحل" }
+        ]
+    },
+    {
+        "number": 17,
+        "name": "Al-Isra'",
+        "translations": [
+            { "language": "en", "translation": "The Night Journey" },
+            { "language": "id", "translation": "Perjalanan Malam" },
+            { "language": "bn", "translation": "রাত্রি যাত্রা" },
+            { "language": "de", "translation": "Die Nachtreise" },
+            { "language": "es", "translation": "El Viaje Nocturno" },
+            { "language": "fr", "translation": "Le Voyage Nocturne" },
+            { "language": "hi", "translation": "रात्रि यात्रा" },
+            { "language": "it", "translation": "Il Viaggio Notturno" },
+            { "language": "ja", "translation": "夜の旅" },
+            { "language": "ko", "translation": "알 이사 (Al-Isra')" },
+            { "language": "ku", "translation": "ئەل اسراء" },
+            { "language": "ml", "translation": "രാത്രി യാത്ര" },
+            { "language": "ru", "translation": "Ночное путешествие" },
+            { "language": "tr", "translation": "Gece Yolculuğu" },
+            { "language": "nl", "translation": "De Nachtreis" },
+            { "language": "ar", "translation": "الإسراء" }
+        ]
+    },
+    {
+        "number": 18,
+        "name": "Al-Kahf",
+        "translations": [
+            { "language": "en", "translation": "The Cave" },
+            { "language": "id", "translation": "Gua" },
+            { "language": "bn", "translation": "গুহা" },
+            { "language": "de", "translation": "Die Höhle" },
+            { "language": "es", "translation": "La Cueva" },
+            { "language": "fr", "translation": "La Caverne" },
+            { "language": "hi", "translation": "गुफा" },
+            { "language": "it", "translation": "La Grotta" },
+            { "language": "ja", "translation": "洞窟" },
+            { "language": "ko", "translation": "알 카프 (Al-Kahf)" },
+            { "language": "ku", "translation": "ئەل کەف" },
+            { "language": "ml", "translation": "ഗുഹ" },
+            { "language": "ru", "translation": "Пещера" },
+            { "language": "tr", "translation": "Maden" },
+            { "language": "nl", "translation": "De Grot" },
+            { "language": "ar", "translation": "الكهف" }
+        ]
+    },
+    {
+        "number": 19,
+        "name": "Maryam",
+        "translations": [
+            { "language": "en", "translation": "Mary" },
+            { "language": "id", "translation": "Maryam" },
+            { "language": "bn", "translation": "মারিয়ম" },
+            { "language": "de", "translation": "Maria" },
+            { "language": "es", "translation": "María" },
+            { "language": "fr", "translation": "Marie" },
+            { "language": "hi", "translation": "मरيम" },
+            { "language": "it", "translation": "Maria" },
+            { "language": "ja", "translation": "マリアム" },
+            { "language": "ko", "translation": "알 마리엠 (Maryam)" },
+            { "language": "ku", "translation": "مەریم" },
+            { "language": "ml", "translation": "മാരിയം" },
+            { "language": "ru", "translation": "Мариям" },
+            { "language": "tr", "translation": "'Maryam'" },
+            { "language": "nl", "translation": "'Maryam'" },
+            { "language": "ar", "translation": "مريم" }
+        ]
+    },
+    {
+        "number": 20,
+        "name": "Ta Ha",
+        "translations": [
+            { "language": "en", "translation": "Ta Ha" },
+            { "language": "id", "translation": "Tha Ha" },
+            { "language": "bn", "translation": "তা-হা" },
+            { "language": "de", "translation": "'Ta Ha'" },
+            { "language": "es", "translation": "'Ta Ha'" },
+            { "language": "fr", "translation": "'Ta Ha'" },
+            { "language": "hi", "translation": "'Ta Ha'" },
+            { "language": "it", "translation": "'Ta Ha'" },
+            { "language": "ja", "translation": "タ・ハ" },
+            { "language": "ko", "translation": "타 하" },
+            { "language": "ku", "translation": "تا ها" },
+            { "language": "ml", "translation": "'Ta Ha'" },
+            { "language": "ru", "translation": "'Ta Ha'" },
+            { "language": "tr", "translation": "'Ta Ha'" },
+            { "language": "nl", "translation": "'Ta Ha'" },
+            { "language": "ar", "translation": "طه" }
+        ]
+    }
+]
+    [
+    {
+        "number": 21,
+        "name": "Al-Anbiya'",
+        "translations": [
+            { "language": "en", "translation": "The Prophets" },
+            { "language": "id", "translation": "Nabi-Nabi" },
+            { "language": "bn", "translation": "নবীরা" },
+            { "language": "de", "translation": "Die Propheten" },
+            { "language": "es", "translation": "Los Profetas" },
+            { "language": "fr", "translation": "Les Prophètes" },
+            { "language": "hi", "translation": "नबी" },
+            { "language": "it", "translation": "I Profeti" },
+            { "language": "ja", "translation": "先知たち" },
+            { "language": "ko", "translation": "예수들 (Prophets)" },
+            { "language": "ku", "translation": "نبیان" },
+            { "language": "ml", "translation": "നബീമാർ" },
+            { "language": "ru", "translation": "Пророки" },
+            { "language": "tr", "translation": "Nebipler" },
+            { "language": "nl", "translation": "De profeten" },
+            { "language": "ar", "translation": "الأنبياء" }
+        ]
+    },
+    {
+        "number": 22,
+        "name": "Al-Hajj",
+        "translations": [
+            { "language": "en", "translation": "The Pilgrimage" },
+            { "language": "id", "translation": "Haji" },
+            { "language": "bn", "translation": "হজ" },
+            { "language": "de", "translation": "Der Pilgerhof" },
+            { "language": "es", "translation": "El Pilgrimage" },
+            { "language": "fr", "translation": "Le Pèlerinage" },
+            { "language": "hi", "translation": "हज" },
+            { "language": "it", "translation": "Il Piligrimaggio" },
+            { "language": "ja", "translation": "巡礼" },
+            { "language": "ko", "translation": "알 하지 (Hajj)" },
+            { "language": "ku", "translation": "حج" },
+            { "language": "ml", "translation": "ഹജ്" },
+            { "language": "ru", "translation": "Хадж" },
+            { "language": "tr", "translation": "Hac" },
+            { "language": "nl", "translation": "De pelerinage" },
+            { "language": "ar", "translation": "الحج" }
+        ]
+    },
+    {
+        "number": 23,
+        "name": "Al-Mu'minun",
+        "translations": [
+            { "language": "en", "translation": "The Believers" },
+            { "language": "id", "translation": "Pengamat" },
+            { "language": "bn", "translation": "বিশ্বাসীরা" },
+            { "language": "de", "translation": "Die Gläubigen" },
+            { "language": "es", "translation": "Los Creyentes" },
+            { "language": "fr", "translation": "Les Croyants" },
+            { "language": "hi", "translation": "मुमिनूँ" },
+            { "language": "it", "translation": "I Credenti" },
+            { "language": "ja", "translation": "信者たち" },
+            { "language": "ko", "translation": "신자들 (Believers)" },
+            { "language": "ku", "translation": "گەورەکان" },
+            { "language": "ml", "translation": "വിശ്വാസികൾ" },
+            { "language": "ru", "translation": "Верующие" },
+            { "language": "tr", "translation": "İnananlar" },
+            { "language": "nl", "translation": "De gelovigen" },
+            { "language": "ar", "translation": "المؤمنون" }
+        ]
+    },
+    {
+        "number": 24,
+        "name": "Al-Nur",
+        "translations": [
+            { "language": "en", "translation": "The Light" },
+            { "language": "id", "translation": "Cahaya" },
+            { "language": "bn", "translation": "আলো" },
+            { "language": "de", "translation": "Das Licht" },
+            { "language": "es", "translation": "La Luz" },
+            { "language": "fr", "translation": "La Lumière" },
+            { "language": "hi", "translation": "प्रकाश" },
+            { "language": "it", "translation": "La Luce" },
+            { "language": "ja", "translation": "光" },
+            { "language": "ko", "translation": "알 라이트 (An-Nur)" },
+            { "language": "ku", "translation": "ئەل نور" },
+            { "language": "ml", "translation": "പ്രകാശം" },
+            { "language": "ru", "translation": "Свет" },
+            { "language": "tr", "translation": "Işık" },
+            { "language": "nl", "translation": "Het licht" },
+            { "language": "ar", "translation": "النور" }
+        ]
+    },
+    {
+        "number": 25,
+        "name": "Al-Furqan",
+        "translations": [
+            { "language": "en", "translation": "The Criterion" },
+            { "language": "id", "translation": "Bukti" },
+            { "language": "bn", "translation": "প্রমাণ" },
+            { "language": "de", "translation": "Das Maßstab" },
+            { "language": "es", "translation": "El Criterio" },
+            { "language": "fr", "translation": "Le Critère" },
+            { "language": "hi", "translation": "मापदंड" },
+            { "language": "it", "translation": "Il Critero" },
+            { "language": "ja", "translation": "標準" },
+            { "language": "ko", "translation": "알 크라이테르ion (Ar-Rahmah)" },
+            { "language": "ku", "translation": "کەیەم" },
+            { "language": "ml", "translation": "മാപദംശം" },
+            { "language": "ru", "translation": "Критерий" },
+            { "language": "tr", "translation": "Kriter" },
+            { "language": "nl", "translation": "Het criterium" },
+            { "language": "ar", "translation": "الفُرْقَان" }
+        ]
+    },
+    {
+        "number": 26,
+        "name": "Asy-Syuarā",
+        "translations": [
+            { "language": "en", "translation": "The Poets" },
+            { "language": "id", "translation": "Pengacara" },
+            { "language": "bn", "translation": "কবিরা" },
+            { "language": "de", "translation": "Die Dichter" },
+            { "language": "es", "translation": "Los Poetas" },
+            { "language": "fr", "translation": "Les Poètes" },
+            { "language": "hi", "translation": "कवियों" },
+            { "language": "it", "translation": "I Poeti" },
+            { "language": "ja", "translation": "詩人たち" },
+            { "language": "ko", "translation": "시인들 (Poets)" },
+            { "language": "ku", "translation": "کەوێجەیان" },
+            { "language": "ml", "translation": "കവികൾ" },
+            { "language": "ru", "translation": "Поэты" },
+            { "language": "tr", "translation": "Şairler" },
+            { "language": "nl", "translation": "De dichters" },
+            { "language": "ar", "translation": "الشعراء" }
+        ]
+    },
+    {
+        "number": 27,
+        "name": "An-Naml",
+        "translations": [
+            { "language": "en", "translation": "The Ants" },
+            { "language": "id", "translation": "Semi" },
+            { "language": "bn", "translation": "মক্কা" },
+            { "language": "de", "translation": "Die Ameisen" },
+            { "language": "es", "translation": "Las Hormigas" },
+            { "language": "fr", "translation": "Les Fourmis" },
+            { "language": "hi", "translation": "चींतीयाँ" },
+            { "language": "it", "translation": "Le Formiche" },
+            { "language": "ja", "translation": "蟻" },
+            { "language": "ko", "translation": "알 앤츠 (An-Naml)" },
+            { "language": "ku", "translation": "نمل" },
+            { "language": "ml", "translation": "പുഴുക്കൾ" },
+            { "language": "ru", "translation": "Муравьи" },
+            { "language": "tr", "translation": "Karakter" },
+            { "language": "nl", "translation": "De mieren" },
+            { "language": "ar", "translation": "النمل" }
+        ]
+    },
+    {
+        "number": 28,
+        "name": "Al-Qasas",
+        "translations": [
+            { "language": "en", "translation": "The Stories" },
+            { "language": "id", "translation": "Cerita" },
+            { "language": "bn", "translation": "গল্প" },
+            { "language": "de", "translation": "Die Geschichten" },
+            { "language": "es", "translation": "Las Historias" },
+            { "language": "fr", "translation": "Les Histoires" },
+            { "language": "hi", "translation": "कथाएँ" },
+            { "language": "it", "translation": "Le Storie" },
+            { "language": "ja", "translation": "物語" },
+            { "language": "ko", "translation": "스토리 (The Stories)" },
+            { "language": "ku", "translation": "هەرەکە" },
+            { "language": "ml", "translation": "കഥകൾ" },
+            { "language": "ru", "translation": "Истории" },
+            { "language": "tr", "translation": "Hikayeler" },
+            { "language": "nl", "translation": "De Verhalen" },
+            { "language": "ar", "translation": "القصص" }
+        ]
+    },
+    {
+        "number": 29,
+        "name": "Al-Ankabut",
+        "translations": [
+            { "language": "en", "translation": "The Spider" },
+            { "language": "id", "translation": "Laba-laba" },
+            { "language": "bn", "translation": "মাকড়শা" },
+            { "language": "de", "translation": "Die Spinne" },
+            { "language": "es", "translation": "La Araña" },
+            { "language": "fr", "translation": "L'Araignée" },
+            { "language": "hi", "translation": "मकड़शा" },
+            { "language": "it", "translation": "La Ragno" },
+            { "language": "ja", "translation": "蜘蛛" },
+            { "language": "ko", "translation": "알 스파이더 (Al-Ankabut)" },
+            { "language": "ku", "translation": "ئەرەنگ" },
+            { "language": "ml", "translation": "താളി" },
+            { "language": "ru", "translation": "Паук" },
+            { "language": "tr", "translation": "Örümcek" },
+            { "language": "nl", "translation": "De Spin" },
+            { "language": "ar", "translation": "العنكبوت" }
+        ]
+    },
+    {
+        "number": 30,
+        "name": "Ar-Rum",
+        "translations": [
+            { "language": "en", "translation": "The Romans" },
+            { "language": "id", "translation": "Roma" },
+            { "language": "bn", "translation": "রোমান" },
+            { "language": "de", "translation": "Die Römer" },
+            { "language": "es", "translation": "Los Romanos" },
+            { "language": "fr", "translation": "Les Romains" },
+            { "language": "hi", "translation": "रोमान" },
+            { "language": "it", "translation": "I Romani" },
+            { "language": "ja", "translation": "ローマ人たち" },
+            { "language": "ko", "translation": "로마인 (The Romans)" },
+            { "language": "ku", "translation": "رومیان" },
+            { "language": "ml", "translation": "റോമൻമാർ" },
+            { "language": "ru", "translation": "Римляне" },
+            { "language": "tr", "translation": "Romenler" },
+            { "language": "nl", "translation": "De Romeinen" },
+            { "language": "ar", "translation": "الروم" }
+        ]
+    }
+]
+    {
+        "number": 31,
+        "name": "Luqman",
+        "translations": [
+            { "language": "en", "translation": "Luqman" },
+            { "language": "id", "translation": "Luqman" },
+            { "language": "bn", "translation": "লুকমান" },
+            { "language": "de", "translation": "Luqman" },
+            { "language": "es", "translation": "Luqman" },
+            { "language": "fr", "translation": "Luqman" },
+            { "language": "hi", "translation": "लुकमान" },
+            { "language": "it", "translation": "Luqman" },
+            { "language": "ja", "translation": "ルクマン" },
+            { "language": "ko", "translation": "'루크만 (Luqman)'" },
+            { "language": "ku", "translation": "'لوقمان'" },
+            { "language": "ml", "translation": "'Luqman'" },
+            { "language": "ru", "translation": "'Лукман'" },
+            { "language": "tr", "translation": "'Luqman'" },
+            { "language": "nl", "translation": "'Luqman'" },
+            { "language": "ar", "translation": "لقمان" }
+        ]
+    },
+[
+    {
+        "number": 32,
+        "name": "As-Sajdah",
+        "translations": [
+            { "language": "en", "translation": "The Prostration" },
+            { "language": "id", "translation": "Sujud" },
+            { "language": "bn", "translation": "সাজদাহ" },
+            { "language": "de", "translation": "Die Verbeugung" },
+            { "language": "es", "translation": "La Prostración" },
+            { "language": "fr", "translation": "La Prostration" },
+            { "language": "hi", "translation": "सज्जादा" },
+            { "language": "it", "translation": "La Prostrazione" },
+            { "language": "ja", "translation": "礼拝" },
+            { "language": "ko", "translation": "부복 (As-Sajdah)" },
+            { "language": "ku", "translation": "As-Sajdah" },
+            { "language": "ml", "translation": "As-Sajdah" },
+            { "language": "ru", "translation": "As-Sajdah" },
+            { "language": "tr", "translation": "As-Sajdah" },
+            { "language": "nl", "translation": "As-Sajdah" },
+            { "language": "ar", "translation": "السجدة" }
+        ]
+    },
+    {
+        "number": 33,
+        "name": "Al-Ahzab",
+        "translations": [
+            { "language": "en", "translation": "The Confederates" },
+            { "language": "id", "translation": "Golongan Yang Bersekutu" },
+            { "language": "bn", "translation": "সংগঠন" },
+            { "language": "de", "translation": "Die Verbündeten" },
+            { "language": "es", "translation": "Los Confederados" },
+            { "language": "fr", "translation": "Les Confederés" },
+            { "language": "hi", "translation": "अहज़ाब" },
+            { "language": "it", "translation": "I Confederati" },
+            { "language": "ja", "translation": "同盟者たち" },
+            { "language": "ko", "translation": "알-아즈라 (Al-Ahzab)" },
+            { "language": "ku", "translation": "Al-Ahzab" },
+            { "language": "ml", "translation": "Al-Ahzab" },
+            { "language": "ru", "translation": "Al-Ahzab" },
+            { "language": "tr", "translation": "Al-Ahzab" },
+            { "language": "nl", "translation": "Al-Ahzab" },
+            { "language": "ar", "translation": "الأحزاب" }
+        ]
+    },
+    {
+        "number": 34,
+        "name": "Saba'",
+        "translations": [
+            { "language": "en", "translation": "Sheba" },
+            { "language": "id", "translation": "Saba" },
+            { "language": "bn", "translation": "শেবা" },
+            { "language": "de", "translation": "Saba" },
+            { "language": "es", "translation": "Saba" },
+            { "language": "fr", "translation": "Saba" },
+            { "language": "hi", "translation": "सबा" },
+            { "language": "it", "translation": "Saba" },
+            { "language": "ja", "translation": "サバ" },
+            { "language": "ko", "translation": "사바 (Saba)" },
+            { "language": "ku", "translation": "سبأ" },
+            { "language": "ml", "translation": "Saba" },
+            { "language": "ru", "translation": "Саба" },
+            { "language": "tr", "translation": "Saba" },
+            { "language": "nl", "translation": "Saba" },
+            { "language": "ar", "translation": "سبأ" }
+        ]
+    },
+    {
+        "number": 35,
+        "name": "Fatir",
+        "translations": [
+            { "language": "en", "translation": "The Originator" },
+            { "language": "id", "translation": "Pencipta" },
+            { "language": "bn", "translation": "প্রবাদ" },
+            { "language": "de", "translation": "Der Schöpfer" },
+            { "language": "es", "translation": "El Originador" },
+            { "language": "fr", "translation": "Le Créateur" },
+            { "language": "hi", "translation": "फातिर" },
+            { "language": "it", "translation": "Il Creatore" },
+            { "language": "ja", "translation": "創造者" },
+            { "language": "ko", "translation": "창조자 (Fatir)" },
+            { "language": "ku", "translation": "خولقێنەر" },
+            { "language": "ml", "translation": "Fatir" },
+            { "language": "ru", "translation": "Творец" },
+            { "language": "tr", "translation": "Fatir" },
+            { "language": "nl", "translation": "Fatir" },
+            { "language": "ar", "translation": "فاطر" }
+        ]
+    },
+    {
+        "number": 36,
+        "name": "Ya Seen",
+        "translations": [
+            { "language": "en", "translation": "Ya Seen" },
+            { "language": "id", "translation": "Ya Sin" },
+            { "language": "bn", "translation": "য়া সীন" },
+            { "language": "de", "translation": "Ya Seen" },
+            { "language": "es", "translation": "Ya Seen" },
+            { "language": "fr", "translation": "Ya Seen" },
+            { "language": "hi", "translation": "يَسْ" },
+            { "language": "it", "translation": "Ya Seen" },
+            { "language": "ja", "translation": "ヤ・シーン" },
+            { "language": "ko", "translation": "야신" },
+            { "language": "ku", "translation": "يس" },
+            { "language": "ml", "translation": "Ya Seen" },
+            { "language": "ru", "translation": "Я Син" },
+            { "language": "tr", "translation": "Ya Seen" },
+            { "language": "nl", "translation": "Ya Seen" },
+            { "language": "ar", "translation": "يس" }
+        ]
+    },
+    {
+        "number": 37,
+        "name": "As-Saffat",
+        "translations": [
+            { "language": "en", "translation": "Those Who Set The Ranks" },
+            { "language": "id", "translation": "Yang Membentuk Barisan" },
+            { "language": "bn", "translation": "অস-সাফাত" },
+            { "language": "de", "translation": "Die Reihenlegenden" },
+            { "language": "es", "translation": "Los que dispusieron las filas" },
+            { "language": "fr", "translation": "Ceux qui disposent les rangs" },
+            { "language": "hi", "translation": "الصافات" },
+            { "language": "it", "translation": "Coloro che disporono le fila" },
+            { "language": "ja", "translation": "行列をつける者々" },
+            { "language": "ko", "translation": "이는 행을 형성합니다. (As-Saffat)" },
+            { "language": "ku", "translation": "ئەس-سەفات" },
+            { "language": "ml", "translation": "As-Saffat" },
+            { "language": "ru", "translation": "Те, кто устраивают ряды" },
+            { "language": "tr", "translation": "As-Saffat" },
+            { "language": "nl", "translation": "As-Saffat" },
+            { "language": "ar", "translation": "الصافات" }
+        ]
+    },
+    {
+        "number": 38,
+        "name": "Sad",
+        "translations": [
+            { "language": "en", "translation": "The Letter Sad" },
+            { "language": "id", "translation": "Huruf Sad" },
+            { "language": "bn", "translation": "সাদ" },
+            { "language": "de", "translation": "Der Buchstabe Sad" },
+            { "language": "es", "translation": "La letra Sad" },
+            { "language": "fr", "translation": "La lettre Sad" },
+            { "language": "hi", "translation": "साद" },
+            { "language": "it", "translation": "La lettera Sad" },
+            { "language": "ja", "translation": "サドの文字" },
+            { "language": "ko", "translation": "사드 (Sad)" },
+            { "language": "ku", "translation": "ص" },
+            { "language": "ml", "translation": "Sad" },
+            { "language": "ru", "translation": "Буква Сад" },
+            { "language": "tr", "translation": "Sad" },
+            { "language": "nl", "translation": "De brief Sad" },
+            { "language": "ar", "translation": "ص" }
+        ]
+    },
+    {
+        "number": 39,
+        "name": "Az-Zumar",
+        "translations": [
+            { "language": "en", "translation": "The Groups" },
+            { "language": "id", "translation": "Kumpulan" },
+            { "language": "bn", "translation": "জুমুরা" },
+            { "language": "de", "translation": "Die Gruppen" },
+            { "language": "es", "translation": "Los Grupos" },
+            { "language": "fr", "translation": "Les Groupes" },
+            { "language": "hi", "translation": "الزمر" },
+            { "language": "it", "translation": "I Gruppi" },
+            { "language": "ja", "translation": "集団" },
+            { "language": "ko", "translation": "그룹 (Az-Zumar)" },
+            { "language": "ku", "translation": "Az-Zumar" },
+            { "language": "ml", "translation": "Az-Zumar" },
+            { "language": "ru", "translation": "Группы" },
+            { "language": "tr", "translation": "Az-Zumar" },
+            { "language": "nl", "translation": "De groepen" },
+            { "language": "ar", "translation": "الزمر" }
+        ]
+    },
+    {
+        "number": 40,
+        "name": "Ghafir",
+        "translations": [
+            { "language": "en", "translation": "The Forgiver" },
+            { "language": "id", "translation": "Yang Pengampun" },
+            { "language": "bn", "translation": "গাফির" },
+            { "language": "de", "translation": "Der Verzeiher" },
+            { "language": "es", "translation": "El Perdón" },
+            { "language": "fr", "translation": "Le Pardonné" },
+            { "language": "hi", "translation": "غافر" },
+            { "language": "it", "translation": "Il Perdono" },
+            { "language": "ja", "translation": "お許し者" },
+            { "language": "ko", "translation": "고백자 (Ghafir)" },
+            { "language": "ku", "translation": "Ghafir" },
+            { "language": "ml", "translation": "Ghafir" },
+            { "language": "ru", "translation": "Проститель" },
+            { "language": "tr", "translation": "Ghafir" },
+            { "language": "nl", "translation": "De vergever" },
+            { "language": "ar", "translation": "غافر" }
+        ]
+    },
+    {
+        "number": 41,
+        "name": "Fussilat",
+        "translations": [
+            { "language": "en", "translation": "Explained in Detail" },
+            { "language": "id", "translation": "Dijelaskan Secara Terperinci" },
+            { "language": "bn", "translation": "ফুসিলাত" },
+            { "language": "de", "translation": "Erklärtes ausführlich" },
+            { "language": "es", "translation": "Lo Explicado en Detalle" },
+            { "language": "fr", "translation": "Celui qui est expliqué en détail" },
+            { "language": "hi", "translation": "فصلت" },
+            { "language": "it", "translation": "Spiegato in dettaglio" },
+            { "language": "ja", "translation": "詳細に説明されたもの" },
+            { "language": "ko", "translation": "상세히 설명된 것 (Fussilat)" },
+            { "language": "ku", "translation": "جیاکراوەتەوە" },
+            { "language": "ml", "translation": "Fussilat" },
+            { "language": "ru", "translation": "Раскрытое в деталях" },
+            { "language": "tr", "translation": "Fussilat" },
+            { "language": "nl", "translation": "Gedetailleerd verklaard" },
+            { "language": "ar", "translation": "فصلت" }
+        ]
+    },
+    {
+        "number": 42,
+        "name": "Ash-Shura",
+        "translations": [
+            { "language": "en", "translation": "The Consultation" },
+            { "language": "id", "translation": "Musyawarah" },
+            { "language": "bn", "translation": "শুরা" },
+            { "language": "de", "translation": "Die Beratung" },
+            { "language": "es", "translation": "La Consulta" },
+            { "language": "fr", "translation": "La Consultation" },
+            { "language": "hi", "translation": "الشورى" },
+            { "language": "it", "translation": "La Consultazione" },
+            { "language": "ja", "translation": "協議" },
+            { "language": "ko", "translation": "상담 (Ash-Shura)" },
+            { "language": "ku", "translation": "جیاکراوەتەوە" },
+            { "language": "ml", "translation": "Ash-Shura" },
+            { "language": "ru", "translation": "Совет" },
+            { "language": "tr", "translation": "Ash-Shura" },
+            { "language": "nl", "translation": "De overlegging" },
+            { "language": "ar", "translation": "الشورى" }
+        ]
+    }
+    {
+        "number": 43,
+        "name": "Az-Zukhruf",
+        "translations": [
+            { "language": "en", "translation": "The Ornaments of Gold" },
+            { "language": "id", "translation": "Perhiasan Emas" },
+            { "language": "bn", "translation": "জমজম" },
+            { "language": "de", "translation": "Die goldenen Schmuckstücke" },
+            { "language": "es", "translation": "Los ornamentos de oro" },
+            { "language": "fr", "translation": "Les ornements d'or" },
+            { "language": "hi", "translation": "الزخرف" },
+            { "language": "it", "translation": "Gli ornamenti d'oro" },
+            { "language": "ja", "translation": "金の飾り" },
+            { "language": "ko", "translation": "금 장신구 (Az-Zukhruf)" },
+            { "language": "ku", "translation": "Az-Zukhruf" },
+            { "language": "ml", "translation": "Az-Zukhruf" },
+            { "language": "ru", "translation": "Золотые украшения" },
+            { "language": "tr", "translation": "Az-Zukhruf" },
+            { "language": "nl", "translation": "De gouden sieraden" },
+            { "language": "ar", "translation": "الزخرف" }
+        ]
+    },
+    {
+        "number": 44,
+        "name": "Ad-Dukhan",
+        "translations": [
+            { "language": "en", "translation": "The Smoke" },
+            { "language": "id", "translation": "Asap" },
+            { "language": "bn", "translation": "ধূম" },
+            { "language": "de", "translation": "Der Rauch" },
+            { "language": "es", "translation": "El Humo" },
+            { "language": "fr", "translation": "La Fumée" },
+            { "language": "hi", "translation": "الدخان" },
+            { "language": "it", "translation": "La Fuma" },
+            { "language": "ja", "translation": "煙" },
+            { "language": "ko", "translation": " (Ad-Dukhan)" },
+            { "language": "ku", "translation": "Ad-Dukhan" },
+            { "language": "ml", "translation": "Ad-Dukhan" },
+            { "language": "ru", "translation": "Дым" },
+            { "language": "tr", "translation": "Ad-Dukhan" },
+            { "language": "nl", "translation": "De rook" },
+            { "language": "ar", "translation": "الدخان" }
+        ]
+    },
+    {
+        "number": 45,
+        "name": "Al-Jathiyah",
+        "translations": [
+            { "language": "en", "translation": "The Cattle" },
+            { "language": "id", "translation": "Hewan Ternak" },
+            { "language": "bn", "translation": "পশু" },
+            { "language": "de", "translation": "Der Vieh" },
+            { "language": "es", "translation": "El Ganado" },
+            { "language": "fr", "translation": "Le Bétail" },
+            { "language": "hi", "translation": "الجثية" },
+            { "language": "it", "translation": "Il bestiame" },
+            { "language": "ja", "translation": "家畜" },
+            { "language": "ko", "translation": "Al-Jathiyah" },
+            { "language": "ku", "translation": "Al-Jathiyah" },
+            { "language": "ml", "translation": "Al-Jathiyah" },
+            { "language": "ru", "translation": "Скот" },
+            { "language": "tr", "translation": "Al-Jathiyah" },
+            { "language": "nl", "translation": "Het vee" },
+            { "language": "ar", "translation": "الجثية" }
+        ]
+    },
+    {
+        "number": 46,
+        "name": "Al-Ahqaf",
+        "translations": [
+            { "language": "en", "translation": "The Winds Calamitous" },
+            { "language": "id", "translation": "Badai-Badai Kencang" },
+            { "language": "bn", "translation": "অল আহ্কাফ" },
+            { "language": "de", "translation": "Die wilden Stürme" },
+            { "language": "es", "translation": "Los vientos furiosos" },
+            { "language": "fr", "translation": "Les vents violents" },
+            { "language": "hi", "translation": "الأحقاف" },
+            { "language": "it", "translation": "I venti tempestosi" },
+            { "language": "ja", "translation": "激しい嵐" },
+            { "language": "ko", "translation": "Al-Ahqaf" },
+            { "language": "ku", "translation": "Al-Ahqaf" },
+            { "language": "ml", "translation": "Al-Ahqaf" },
+            { "language": "ru", "translation": "Штормы" },
+            { "language": "tr", "translation": "Al-Ahqaf" },
+            { "language": "nl", "translation": "De wilde stormen" },
+            { "language": "ar", "translation": "الأحقاف" }
+        ]
+    },
+    {
+        "number": 47,
+        "name": "Muhammad",
+        "translations": [
+            { "language": "en", "translation": "Muhammad" },
+            { "language": "id", "translation": "Muhammad" },
+            { "language": "bn", "translation": "মুহাম্মদ" },
+            { "language": "de", "translation": "Muhammad" },
+            { "language": "es", "translation": "Mahoma" },
+            { "language": "fr", "translation": "Mahomet" },
+            { "language": "hi", "translation": "मुहम्मद" },
+            { "language": "it", "translation": "Mahometto" },
+            { "language": "ja", "translation": "ムハンマド" },
+            { "language": "ko", "translation": "Muhammad" },
+            { "language": "ku", "translation": "محمَّد" },
+            { "language": "ml", "translation": "മുഹമ്മദ്" },
+            { "language": "ru", "translation": "Мухаммед" },
+            { "language": "tr", "translation": "Muhammad" },
+            { "language": "nl", "translation": "Muhammad" },
+            { "language": "ar", "translation": "محمَّد" }
+        ]
+    },
+    {
+        "number": 48,
+        "name": "Al-Fath",
+        "translations": [
+            { "language": "en", "translation": "The Victory" },
+            { "language": "id", "translation": "Kemenangan" },
+            { "language": "bn", "translation": "ফতح" },
+            { "language": "de", "translation": "Der Sieg" },
+            { "language": "es", "translation": "La Victoria" },
+            { "language": "fr", "translation": "La Victoire" },
+            { "language": "hi", "translation": "الفتح" },
+            { "language": "it", "translation": "La Vittoria" },
+            { "language": "ja", "translation": "勝利" },
+            { "language": "ko", "translation": "Al-Fath" },
+            { "language": "ku", "translation": "Al-Fath" },
+            { "language": "ml", "translation": "Al-Fath" },
+            { "language": "ru", "translation": "Победа" },
+            { "language": "tr", "translation": "Al-Fath" },
+            { "language": "nl", "translation": "De overwinning" },
+            { "language": "ar", "translation": "الفتح" }
+        ]
+    },
+    {
+        "number": 49,
+        "name": "Al-Hujurat",
+        "translations": [
+            { "language": "en", "translation": "The Chambers" },
+            { "language": "id", "translation": "Gereja-Gereja" },
+            { "language": "bn", "translation": "অল হুজুরাত" },
+            { "language": "de", "translation": "Die Kammern" },
+            { "language": "es", "translation": "Las Salas" },
+            { "language": "fr", "translation": "Les Salles" },
+            { "language": "hi", "translation": "الحجرات" },
+            { "language": "it", "translation": "Le Stanze" },
+            { "language": "ja", "translation": "部屋" },
+            { "language": "ko", "translation": "Al-Hujurat" },
+            { "language": "ku", "translation": "Al-Hujurat" },
+            { "language": "ml", "translation": "Al-Hujurat" },
+            { "language": "ru", "translation": "Камеры" },
+            { "language": "tr", "translation": "Al-Hujurat" },
+            { "language": "nl", "translation": "De kamers" },
+            { "language": "ar", "translation": "الحجرات" }
+        ]
+    },
+    {
+        "number": 50,
+        "name": "Qaf",
+        "translations": [
+            { "language": "en", "translation": "Qaf" },
+            { "language": "id", "translation": "Qaf" },
+            { "language": "bn", "translation": "কাফ" },
+            { "language": "de", "translation": "'Qaf'" },
+            { "language": "es", "translation": "'Qaf'" },
+            { "language": "fr", "translation": "'Qaf'" },
+            { "language": "hi", "translation": "'Qaf'" },
+            { "language": "it", "translation": "'Qaf'" },
+            { "language": "ja", "translation": "'Qaf'" },
+            { "language": "ko", "translation": "'Qaf'" },
+            { "language": "ku", "translation": "'Qaf'" },
+            { "language": "ml", "translation": "'Qaf'" },
+            { "language": "ru", "translation": "'Qaf'" },
+            { "language": "tr", "translation": "'Qaf'" },
+            { "language": "nl", "translation": "'Qaf'" },
+            { "language": "ar", "translation": "ق" }
+        ]
+    },
+    {
+        "number": 51,
+        "name": "Adz-Dzariat",
+        "translations": [
+            { "language": "en", "translation": "The Wind-Curled Scatterers" },
+            { "language": "id", "translation": "Yang Menyebarkan Angin" },
+            { "language": "bn", "translation": "অল জরাত" },
+            { "language": "de", "translation": "Die windegeschäufelten Streuer" },
+            { "language": "es", "translation": "Los esparcidos por el viento" },
+            { "language": "fr", "translation": "Ceux dispersés par le vent" },
+            { "language": "hi", "translation": "الذاريات" },
+            { "language": "it", "translation": "Coloro che il vento sparge" },
+            { "language": "ja", "translation": "風に乗せられた者たち" },
+            { "language": "ko", "translation": "Adz-Dzariat" },
+            { "language": "ku", "translation": "Adz-Dzariat" },
+            { "language": "ml", "translation": "Adz-Dzariat" },
+            { "language": "ru", "translation": "Рассеянные ветром" },
+            { "language": "tr", "translation": "Adz-Dzariat" },
+            { "language": "nl", "translation": "De door de wind verspreide" },
+            { "language": "ar", "translation": "الذاريات" }
+        ]
+    },
+    {
+        "number": 52,
+        "name": "Ash-Sharh",
+        "translations": [
+            { "language": "en", "translation": "The Other Expositor" },
+            { "language": "id", "translation": "Penjelas Lagi" },
+            { "language": "bn", "translation": "অস-শরহ" },
+            { "language": "de", "translation": "Der andere Auslegter" },
+            { "language": "es", "translation": "El otro Explicador" },
+            { "language": "fr", "translation": "L'Autre Interprète" },
+            { "language": "hi", "translation": "الشرح" },
+            { "language": "it", "translation": "L'altro espositore" },
+            { "language": "ja", "translation": "別の説明者" },
+            { "language": "ko", "translation": "Ash-Sharh" },
+            { "language": "ku", "translation": "Ash-Sharh" },
+            { "language": "ml", "translation": "Ash-Sharh" },
+            { "language": "ru", "translation": "Другой толкователь" },
+            { "language": "tr", "translation": "Ash-Sharh" },
+            { "language": "nl", "translation": "De andere vertolker" },
+            { "language": "ar", "translation": "الشرح" }
+        ]
+    },
+    {
+        "number": 53,
+        "name": "An-Najm",
+        "translations": [
+            { "language": "en", "translation": "The Star" },
+            { "language": "id", "translation": "Bintang" },
+            { "language": "bn", "translation": "তারা" },
+            { "language": "de", "translation": "Der Stern" },
+            { "language": "es", "translation": "La Estrella" },
+            { "language": "fr", "translation": "L'Étoile" },
+            { "language": "hi", "translation": "النجم" },
+            { "language": "it", "translation": "La Stella" },
+            { "language": "ja", "translation": "星" },
+            { "language": "ko", "translation": "An-Najm" },
+            { "language": "ku", "translation": "An-Najm" },
+            { "language": "ml", "translation": "An-Najm" },
+            { "language": "ru", "translation": "Звезда" },
+            { "language": "tr", "translation": "An-Najm" },
+            { "language": "nl", "translation": "De ster" },
+            { "language": "ar", "translation": "النجم" }
+        ]
+    },
+    {
+        "number": 54,
+        "name": "Quraysh",
+        "translations": [
+            { "language": "en", "translation": "Quraysh" },
+            { "language": "id", "translation": "Quraisy" },
+            { "language": "bn", "translation": "কুরাইশ" },
+            { "language": "de", "translation": "Die Quraysh" },
+            { "language": "es", "translation": "Los Quraysh" },
+            { "language": "fr", "translation": "Les Quraysh" },
+            { "language": "hi", "translation": "قريش" },
+            { "language": "it", "translation": "I Quraysh" },
+            { "language": "ja", "translation": "クライシー" },
+            { "language": "ko", "translation": "Quraysh" },
+            { "language": "ku", "translation": "قريش" },
+            { "language": "ml", "translation": "കുറെഷ്" },
+            { "language": "ru", "translation": "Курайш" },
+            { "language": "tr", "translation": "Quraysh" },
+            { "language": "nl", "translation": "De Quraysh" },
+            { "language": "ar", "translation": "قريش" }
+        ]
+    },
+    {
+        "number": 55,
+        "name": "Ar-Rahman",
+        "translations": [
+            { "language": "en", "translation": "The Most Merciful" },
+            { "language": "id", "translation": "Yang Paling Budi" },
+            { "language": "bn", "translation": "অর-রহমান" },
+            { "language": "de", "translation": "Der Barmherzige" },
+            { "language": "es", "translation": "El Misericordioso" },
+            { "language": "fr", "translation": "Le Miséricordieux" },
+            { "language": "hi", "translation": "الرحمن" },
+            { "language": "it", "translation": "Il Misericordioso" },
+            { "language": "ja", "translation": "慈悲深い者" },
+            { "language": "ko", "translation": "Ar-Rahman" },
+            { "language": "ku", "translation": "ئەر-رحمان" },
+            { "language": "ml", "translation": "Ar-Rahman" },
+            { "language": "ru", "translation": "Самом Благоразумным" },
+            { "language": "tr", "translation": "Ar-Rahman" },
+            { "language": "nl", "translation": "De meest barmhartige" },
+            { "language": "ar", "translation": "الرحمن" }
+        ]
+    },
+    {
+        "number": 56,
+        "name": "Al-Muminun",
+        "translations": [
+            { "language": "en", "translation": "The Believers" },
+            { "language": "id", "translation": "Yang Iman" },
+            { "language": "bn", "translation": "মুমিনীন" },
+            { "language": "de", "translation": "Die Gläubigen" },
+            { "language": "es", "translation": "Los Creyentes" },
+            { "language": "fr", "translation": "Les Croyants" },
+            { "language": "hi", "translation": "المؤمنون" },
+            { "language": "it", "translation": "Glicredenti" },
+            { "language": "ja", "translation": "信者たち" },
+            { "language": "ko", "translation": "Al-Muminun" },
+            { "language": "ku", "translation": "ئەل مۆمین" },
+            { "language": "ml", "translation": "മുമിനുകൾ" },
+            { "language": "ru", "translation": "Верующие" },
+            { "language": "tr", "translation": "İnananlar" },
+            { "language": "nl", "translation": "De gelovigen" },
+            { "language": "ar", "translation": "المؤمنون" }
+        ]
+    },
+    {
+        "number": 57,
+        "name": "Al-Hadid",
+        "translations": [
+            { "language": "en", "translation": "The Iron" },
+            { "language": "id", "translation": "Besi" },
+            { "language": "bn", "translation": "হাদিদ" },
+                { "language": "de", "translation": "'Al-Hadid'" },
+                { "language": "es", "translation": "'Al-Hadid'" },
+                { "language": "fr", "translation": "'Al-Hadid'" },
+                { "language": "hi", "translation": "'Al-Hadid'" },
+                { "language": "it", "translation": "'Al-Hadid'" },
+                { "language": "ja", "translation": "'Al-Hadid'" },
+                { "language": "ko", "translation": "'Al-Hadid'" },
+                { "language": "ku", "translation": "'Al-Hadid'" },
+                { "language": "ml", "translation": "'Al-Hadid'" },
+                { "language": "ru", "translation": "'Al-Hadid'" },
+                { "language": "tr", "translation": "'Al-Hadid'" },
+                { "language": "nl", "translation": "'Al-Hadid'" },
+            { "language": "ar", "translation": "الحديد" }
+        ]
+    },
+    {
+        "number": 58,
+        "name": "Al-Mujadalah",
+        "translations": [
+            { "language": "en", "translation": "The Pleading Woman" },
+            { "language": "id", "translation": "Wanita Yang Mengajukan Gugatan" },
+            { "language": "bn", "translation": "মুজাদিলা" },
+            { "language": "ar", "translation": "المجادلة" }
+        ]
+    },
+    {
+        "number": 59,
+        "name": "Al-Hashr",
+        "translations": [
+            { "language": "en", "translation": "The Exile" },
+            { "language": "id", "translation": "Pengusiran" },
+            { "language": "bn", "translation": "হাশর" },
+            { "language": "ar", "translation": "الحشر" }
+        ]
+    },
+    {
+        "number": 60,
+        "name": "Al-Mumtahanah",
+        "translations": [
+            { "language": "en", "translation": "The Woman to be Examined" },
+            { "language": "id", "translation": "Wanita Yang Diuji" },
+            { "language": "bn", "translation": "মুমতাহানা" },
+            { "language": "ar", "translation": "الممتحنة" }
+        ]
+    },
+    {
+        "number": 61,
+        "name": "As-Saff",
+        "translations": [
+            { "language": "en", "translation": "The Ranks" },
+            { "language": "id", "translation": "Barisan" },
+            { "language": "bn", "translation": "সাফ" },
+            { "language": "ar", "translation": "الصف" }
+        ]
+    },
+    {
+        "number": 62,
+        "name": "Al-Jumu'ah",
+        "translations": [
+            { "language": "en", "translation": "Friday" },
+            { "language": "id", "translation": "Hari Jumat" },
+            { "language": "bn", "translation": "জুমা" },
+            { "language": "ar", "translation": "الجمعة" }
+        ]
+    },
+    {
+        "number": 63,
+        "name": "Al-Munafiqun",
+        "translations": [
+            { "language": "en", "translation": "The Hypocrites" },
+            { "language": "id", "translation": "Orang-Orang Munafik" },
+            { "language": "bn", "translation": "মুনাফিকুন" },
+            { "language": "ar", "translation": "المنافقون" }
+        ]
+    },
+    {
+        "number": 64,
+        "name": "At-Taghabun",
+        "translations": [
+            { "language": "en", "translation": "The Mutual Loss And Gain" },
+            { "language": "id", "translation": "Saling Merugi" },
+            { "language": "bn", "translation": "তাগাবুন" },
+            { "language": "ar", "translation": "التغابن" }
+        ]
+    },
+    {
+        "number": 65,
+        "name": "At-Talaq",
+        "translations": [
+            { "language": "en", "translation": "The Divorce" },
+            { "language": "id", "translation": "Talak" },
+            { "language": "bn", "translation": "তালাক" },
+            { "language": "ar", "translation": "الطلاق" }
+        ]
+    },
+    {
+        "number": 66,
+        "name": "At-Tahrim",
+        "translations": [
+            { "language": "en", "translation": "The Prohibition" },
+            { "language": "id", "translation": "Pengharaman" },
+            { "language": "bn", "translation": "তাহরীম" },
+            { "language": "ar", "translation": "التحريم" }
+        ]
+    },
+    {
+        "number": 67,
+        "name": "Al-Mulk",
+        "translations": [
+            { "language": "en", "translation": "The Sovereignty" },
+            { "language": "id", "translation": "Kekuasaan" },
+            { "language": "bn", "translation": "মুল্ক" },
+            { "language": "ar", "translation": "الملك" }
+        ]
+    },
+    {
+        "number": 68,
+        "name": "Al-Qalam",
+        "translations": [
+            { "language": "en", "translation": "The Pen" },
+            { "language": "id", "translation": "Pena" },
+            { "language": "bn", "translation": "কলম" },
+            { "language": "ar", "translation": "القلم" }
+        ]
+    },
+    {
+        "number": 69,
+        "name": "Al-Haqqah",
+        "translations": [
+            { "language": "en", "translation": "The Inevitable Reality" },
+            { "language": "id", "translation": "Hari Kiamat" },
+            { "language": "bn", "translation": "হাকা" },
+            { "language": "ar", "translation": "الحاقة" }
+        ]
+    },
+    {
+        "number": 70,
+        "name": "Al-Ma'arij",
+        "translations": [
+            { "language": "en", "translation": "The Ways of Ascent" },
+            { "language": "id", "translation": "Tangga-Tangga" },
+            { "language": "bn", "translation": "মাআরিজ" },
+            { "language": "ar", "translation": "المعارج" }
+        ]
+    },
+    {
+        "number": 71,
+        "name": "Nuh",
+        "translations": [
+            { "language": "en", "translation": "Noah" },
+            { "language": "id", "translation": "Nuh" },
+            { "language": "bn", "translation": "নূহ" },
+            { "language": "ar", "translation": "نوح" }
+        ]
+    },
+    {
+        "number": 72,
+        "name": "Al-Jinn",
+        "translations": [
+            { "language": "en", "translation": "The Jinn" },
+            { "language": "id", "translation": "Jin" },
+            { "language": "bn", "translation": "জিন" },
+            { "language": "ar", "translation": "الجن" }
+        ]
+    },
+    {
+        "number": 73,
+        "name": "Al-Muzzammil",
+        "translations": [
+            { "language": "en", "translation": "The Enshrouded One" },
+            { "language": "id", "translation": "Orang Yang Berselimut" },
+            { "language": "bn", "translation": "মুজাম্মিল" },
+            { "language": "ar", "translation": "المزمل" }
+        ]
+    },
+    {
+        "number": 74,
+        "name": "Al-Muddaththir",
+        "translations": [
+            { "language": "en", "translation": "The Man Wearing A Cloak" },
+            { "language": "id", "translation": "Orang Yang Berbalut" },
+            { "language": "bn", "translation": "মুদ্দাত্তির" },
+            { "language": "ar", "translation": "المدثر" }
+        ]
+    },
+    {
+        "number": 75,
+        "name": "Al-Qiyamah",
+        "translations": [
+            { "language": "en", "translation": "The Resurrection" },
+            { "language": "id", "translation": "Kebangkitan" },
+            { "language": "bn", "translation": "কিয়ামত" },
+            { "language": "ar", "translation": "القيامة" }
+        ]
+    },
+    {
+        "number": 76,
+        "name": "Al-Insan",
+        "translations": [
+            { "language": "en", "translation": "The Human" },
+            { "language": "id", "translation": "Manusia" },
+            { "language": "bn", "translation": "মানুষ" },
+            { "language": "ar", "translation": "الإنسان" }
+        ]
+    },
+    {
+        "number": 77,
+        "name": "Al-Mursalat",
+        "translations": [
+            { "language": "en", "translation": "The Emissaries" },
+            { "language": "id", "translation": "Malaikat Pengutusan" },
+            { "language": "bn", "translation": "মুরসালাত" },
+            { "language": "ar", "translation": "المرسلات" }
+        ]
+    },
+    {
+        "number": 78,
+        "name": "An-Naba'",
+        "translations": [
+            { "language": "en", "translation": "The Great News" },
+            { "language": "id", "translation": "Berita Besar" },
+            { "language": "bn", "translation": "বড় খবর" },
+            { "language": "ar", "translation": "النبأ" }
+        ]
+    },
+    {
+        "number": 79,
+        "name": "An-Nazi'at",
+        "translations": [
+            { "language": "en", "translation": "Those Who Tear Out" },
+            { "language": "id", "translation": "Malaikat Pencabut Nyawa" },
+            { "language": "bn", "translation": "নাজিয়াত" },
+            { "language": "ar", "translation": "الناعيات" }
+        ]
+    },
+    {
+        "number": 80,
+        "name": "Abasa",
+        "translations": [
+            { "language": "en", "translation": "He Frowned" },
+            { "language": "id", "translation": "Bermuka Masam" },
+            { "language": "bn", "translation": "আবাস" },
+            { "language": "ar", "translation": "عبس" }
+        ]
+    },
+    {
+        "number": 81,
+        "name": "At-Takwir",
+        "translations": [
+            { "language": "en", "translation": "The Overthrowing" },
+            { "language": "id", "translation": "Penggulungan" },
+            { "language": "bn", "translation": "টেকওয়ির" },
+            { "language": "ar", "translation": "التكوير" }
+        ]
+    },
+    {
+        "number": 82,
+        "name": "Al-Infitar",
+        "translations": [
+            { "language": "en", "translation": "The Cleaving" },
+            { "language": "id", "translation": "Pembelahan" },
+            { "language": "bn", "translation": "ইনফিতার" },
+            { "language": "ar", "translation": "الانفطار" }
+        ]
+    },
+    {
+        "number": 83,
+        "name": "Al-Mutaffifin",
+        "translations": [
+            { "language": "en", "translation": "The Dealers in Fraud" },
+            { "language": "id", "translation": "Pengkurang Takaran" },
+            { "language": "bn", "translation": "মুতাফফিফিন" },
+            { "language": "ar", "translation": "المطففين" }
+        ]
+    },
+    {
+        "number": 84,
+        "name": "Al-Inshiqaq",
+        "translations": [
+            { "language": "en", "translation": "The Splitting Open" },
+            { "language": "id", "translation": "Terbelah" },
+            { "language": "bn", "translation": "ইনশিকাৎ" },
+            { "language": "ar", "translation": "الانشقاق" }
+        ]
+    },
+    {
+        "number": 85,
+        "name": "Al-Buruj",
+        "translations": [
+            { "language": "en", "translation": "The Constellations" },
+            { "language": "id", "translation": "Gugusan Bintang" },
+            { "language": "bn", "translation": "বৃষ্টি" },
+            { "language": "ar", "translation": "البروج" }
+        ]
+    },
+    {
+        "number": 86,
+        "name": "At-Tariq",
+        "translations": [
+            { "language": "en", "translation": "The Night-Comer" },
+            { "language": "id", "translation": "Yang Datang Malam" },
+            { "language": "bn", "translation": "রাতে আসা" },
+            { "language": "ar", "translation": "الطارق" }
+        ]
+    },
+    {
+        "number": 87,
+        "name": "Al-A'la",
+        "translations": [
+            { "language": "en", "translation": "The Most High" },
+            { "language": "id", "translation": "Yang Paling Tinggi" },
+            { "language": "bn", "translation": "সর্বোচ্চ" },
+            { "language": "ar", "translation": "الأعلى" }
+        ]
+    },
+    {
+        "number": 88,
+        "name": "Al-Ghashiyah",
+        "translations": [
+            { "language": "en", "translation": "The Overwhelming" },
+            { "language": "id", "translation": "Penutup" },
+            { "language": "bn", "translation": "গাশিয়াহ" },
+            { "language": "ar", "translation": "الغاشية" }
+        ]
+    },
+    {
+        "number": 89,
+        "name": "Al-Fajr",
+        "translations": [
+            { "language": "en", "translation": "The Dawn" },
+            { "language": "id", "translation": "Fajar" },
+            { "language": "bn", "translation": "ফজর" },
+            { "language": "ar", "translation": "الفجر" }
+        ]
+    },
+    {
+        "number": 90,
+        "name": "Al-Balad",
+        "translations": [
+            { "language": "en", "translation": "The City" },
+            { "language": "id", "translation": "Negeri" },
+            { "language": "bn", "translation": "শহর" },
+            { "language": "ar", "translation": "البلد" }
+        ]
+    },
+    {
+        "number": 91,
+        "name": "Ash-Shams",
+        "translations": [
+            { "language": "en", "translation": "The Sun" },
+            { "language": "id", "translation": "Matahari" },
+            { "language": "bn", "translation": "সূর্য" },
+            { "language": "ar", "translation": "الشمس" }
+        ]
+    },
+    {
+        "number": 92,
+        "name": "Al-Lail",
+        "translations": [
+            { "language": "en", "translation": "The Night" },
+            { "language": "id", "translation": "Malam" },
+            { "language": "bn", "translation": "রাত" },
+            { "language": "ar", "translation": "الليل" }
+        ]
+    },
+    {
+        "number": 93,
+        "name": "Ad-Duha",
+        "translations": [
+            { "language": "en", "translation": "The Forenoon" },
+            { "language": "id", "translation": "Forenoon" },
+            { "language": "bn", "translation": "সকাল" },
+            { "language": "ar", "translation": "الضحى" }
+        ]
+    },
+    {
+        "number": 94,
+        "name": "Ash-Sharh",
+        "translations": [
+            { "language": "en", "translation": "The Opening" },
+            { "language": "id", "translation": "Melapangkan" },
+            { "language": "bn", "translation": "প্রসার" },
+            { "language": "ar", "translation": "الشرح" }
+        ]
+    },
+    {
+        "number": 95,
+        "name": "At-Tin",
+        "translations": [
+            { "language": "en", "translation": "The Fig" },
+            { "language": "id", "translation": "Pohon Tin" },
+            { "language": "bn", "translation": "তিন" },
+            { "language": "ar", "translation": "التين" }
+        ]
+    },
+    {
+        "number": 96,
+        "name": "Al-Alaq",
+        "translations": [
+            { "language": "en", "translation": "The Clot" },
+            { "language": "id", "translation": "Segumpal Darah" },
+            { "language": "bn", "translation": "আলাকা" },
+            { "language": "ar", "translation": "العلق" }
+        ]
+    },
+    {
+        "number": 97,
+        "name": "Al-Qadr",
+        "translations": [
+            { "language": "en", "translation": "The Night of Power" },
+            { "language": "id", "translation": "Malam Kemuliaan" },
+            { "language": "bn", "translation": "শক্তির রাত" },
+            { "language": "ar", "translation": "القدر" }
+        ]
+    },
+    {
+        "number": 98,
+        "name": "Al-Bayyinah",
+        "translations": [
+            { "language": "en", "translation": "The Clear Proof" },
+            { "language": "id", "translation": "Bukti Nyata" },
+            { "language": "bn", "translation": "স্পष্ট প্রমাণ" },
+            { "language": "ar", "translation": "البينة" }
+        ]
+    },
+    {
+        "number": 99,
+        "name": "Az-Zalzalah",
+        "translations": [
+            { "language": "en", "translation": "The Earthquake" },
+            { "language": "id", "translation": "Guncangan" },
+            { "language": "bn", "translation": "ভূমিকম্প" },
+            { "language": "ar", "translation": "الزلزلة" }
+        ]
+    },
+    {
+        "number": 100,
+        "name": "Al-Adiyat",
+        "translations": [
+            { "language": "en", "translation": "The Racers" },
+            { "language": "id", "translation": "Kuda Perang" },
+            { "language": "bn", "translation": "প্রতিযোগী" },
+            { "language": "ar", "translation": "العاديات" }
+        ]
+    },
+    {
+        "number": 101,
+        "name": "Al-Qari'ah",
+        "translations": [
+            { "language": "en", "translation": "The Calamity" },
+            { "language": "id", "translation": "Hari Kiamat" },
+            { "language": "bn", "translation": "বিপদ" },
+            { "language": "ar", "translation": "القارعة" }
+        ]
+    },
+    {
+        "number": 102,
+        "name": "At-Takathur",
+        "translations": [
+            { "language": "en", "translation": "The Rivalry in worldly Increase" },
+            { "language": "id", "translation": "Bermegah-Megahan" },
+            { "language": "bn", "translation": "বৈশিষ্ট্য" },
+            { "language": "ar", "translation": "التكاثر" }
+        ]
+    },
+    {
+        "number": 103,
+        "name": "Al-Asr",
+        "translations": [
+            { "language": "en", "translation": "The Time" },
+            { "language": "id", "translation": "Masa" },
+            { "language": "bn", "translation": "আসর" },
+            { "language": "ar", "translation": "العصر" }
+        ]
+    },
+    {
+        "number": 104,
+        "name": "Al-Humazah",
+        "translations": [
+            { "language": "en", "translation": "The Slanderer" },
+            { "language": "id", "translation": "Pengumpat" },
+            { "language": "bn", "translation": "অপমানকারী" },
+            { "language": "ar", "translation": "الهمزة" }
+        ]
+    },
+    {
+        "number": 105,
+        "name": "Al-Fil",
+        "translations": [
+            { "language": "en", "translation": "The Elephant" },
+            { "language": "id", "translation": "Gajah" },
+            { "language": "bn", "translation": "হাতি" },
+            { "language": "ar", "translation": "الفيل" }
+        ]
+    },
+    {
+        "number": 106,
+        "name": "Quraysh",
+        "translations": [
+            { "language": "en", "translation": "Quraysh" },
+            { "language": "id", "translation": "Quraysh" },
+            { "language": "bn", "translation": "কুরাইশ" },
+            { "language": "ar", "translation": "قريش" }
+        ]
+    },
+    {
+        "number": 107,
+        "name": "Al-Maun",
+        "translations": [
+            { "language": "en", "translation": "The Small Kindnesses" },
+            { "language": "id", "translation": "Barang Kebutuhan" },
+            { "language": "bn", "translation": "ছোট মঙ্গল" },
+            { "language": "ar", "translation": "الماعون" }
+        ]
+    },
+    {
+        "number": 108,
+        "name": "Al-Kawthar",
+        "translations": [
+            { "language": "en", "translation": "The Abundance" },
+            { "language": "id", "translation": "Kelimpahan Kebaikan" },
+            { "language": "bn", "translation": "কাওসার" },
+            { "language": "ar", "translation": "الكوثر" }
+        ]
+    },
+    {
+        "number": 109,
+        "name": "Al-Kafirun",
+        "translations": [
+            { "language": "en", "translation": "The Disbelievers" },
+            { "language": "id", "translation": "Para Kafir" },
+            { "language": "bn", "translation": "কাফিরুন" },
+            { "language": "ar", "translation": "الكافرون" }
+        ]
+    },
+    {
+        "number": 110,
+        "name": "An-Nasr",
+        "translations": [
+            { "language": "en", "translation": "The Victory" },
+            { "language": "id", "translation": "Pertolongan" },
+            { "language": "bn", "translation": "নাসর" },
+            { "language": "ar", "translation": "النصر" }
+        ]
+    },
+    {
+        "number": 111,
+        "name": "Al-Lahab",
+        "translations": [
+            { "language": "en", "translation": "The Flame" },
+            { "language": "id", "translation": "Jalinan Tali" },
+            { "language": "bn", "translation": "লাহাব" },
+            { "language": "ar", "translation": "اللهب" }
+        ]
+    },
+    {
+        "number": 112,
+        "name": "Al-Ikhlas",
+        "translations": [
+            { "language": "en", "translation": "The Sincerity" },
+            { "language": "id", "translation": "Keikhlasan" },
+            { "language": "bn", "translation": "একত্ববাদ" },
+            { "language": "ar", "translation": "الإخلاص" }
+        ]
+    },
+    {
+        "number": 113,
+        "name": "Al-Falaq",
+        "translations": [
+            { "language": "en", "translation": "The Daybreak" },
+            { "language": "id", "translation": "Fajar" },
+            { "language": "bn", "translation": "ফালাক" },
+            { "language": "ar", "translation": "الفلق" }
+        ]
+    },
+    {
+        "number": 114,
+        "name": "An-Nas",
+        "translations": [
+            { "language": "en", "translation": "The Mankind" },
+            { "language": "id", "translation": "Manusia" },
+            { "language": "bn", "translation": "মানুষ" },
+            { "language": "ar", "translation": "الناس" }
+        ]
+    }
+]

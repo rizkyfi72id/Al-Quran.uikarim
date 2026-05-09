@@ -1,0 +1,494 @@
+<div class="footer">
+    <p>{{APP_NAME}} v{{VERSION}}</p>
+    <p>made with <span class="love">♥︎</span> by <a href="https://rioastamal.net">Rio Astamal</a></p>
+</div>
+<script type="text/javascript">
+var murottalAudioElement = document.createElement('Audio');
+var previousPlayedButton = null;
+var murottalLoopMode = 'noloop';
+var ayahSelection = [];
+
+var afterAudioDoneCallback = function(e) {
+    // &#x25b6; black right triangle
+    var surahNumber = e.target.myCustomData.surahNumber;
+    var ayahNumber = e.target.myCustomData.ayahNumber;
+    var audioButton = e.target.myCustomData.audioButton;
+    audioButton.innerHTML = '<span class="icon-content">&#x25b6;</span>';
+
+    murottalAudioElement.loop = false;
+    if (murottalLoopMode === 'surah') {
+        if (audioButton.getAttribute('data-from-tafsir-page') == "1") {
+            return;
+        }
+
+        var nextAyah = audioButton.getAttribute('data-next-ayah-number');
+        if (audioButton.getAttribute('data-is-last-ayah') == "1") {
+            nextAyah = 1;
+        }
+        document.getElementById('audio-' + surahNumber + '-' + nextAyah).click();
+
+        // do not scroll if we are opening side menu
+        if (window.location.hash.indexOf('#sidepage') == -1) {
+            window.location.href = '#no' + nextAyah;
+        }
+    }
+
+    if (murottalLoopMode === 'ayah-selection') {
+        if (audioButton.getAttribute('data-from-tafsir-page') == "1") {
+            return;
+        }
+
+        var currentIndexPosition = ayahSelection.indexOf(parseInt(ayahNumber));
+        var nextAyah = ayahSelection[currentIndexPosition + 1];
+
+        if (currentIndexPosition + 1 === ayahSelection.length) {
+            nextAyah = ayahSelection[0];
+        }
+
+        // Prevent unknown ayat to be played
+        if (document.getElementById('audio-' + surahNumber + '-' + nextAyah) === null) {
+            return;
+        }
+
+        document.getElementById('audio-' + surahNumber + '-' + nextAyah).click();
+
+        // do not scroll if we are opening side menu
+        if (window.location.hash.indexOf('#sidepage') == -1) {
+            window.location.href = '#no' + nextAyah;
+        }
+    }
+}
+
+/**
+ * Function to pad string at beginning. With modification without String.repeat().
+ *
+ * https://github.com/uxitten/polyfill/blob/master/string.polyfill.js
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
+ *
+ * @return String
+ */
+if (!String.prototype.padStart) {
+    String.prototype.padStart = function padStart(targetLength, padString) {
+        var targetLength = targetLength >> 0; //truncate if number, or convert non-number to 0;
+        var padString = String(typeof padString !== 'undefined' ? padString : ' ');
+        if (this.length >= targetLength) {
+            return String(this);
+        } else {
+            targetLength = targetLength - this.length;
+            var prefix = '';
+            for (var i=0; i<targetLength; i++) {
+                prefix += padString;
+            }
+
+            return prefix + String(this);
+        }
+    };
+}
+
+/**
+ * @param String $value
+ * @return Array
+ */
+function parseAyahSelection(value)
+{
+    var tmpSelection = [];
+    var ayahSelection = [];
+
+    var tmp = value.split(',');
+    for (var i=0; i<tmp.length; i++) {
+        if (tmp[i].indexOf('-') > -1) {
+            var tmp2 = tmp[i].split('-');
+            var start = parseInt(tmp2[0]);
+            var end = parseInt(tmp2[1]);
+
+            for (var j=start; j<=end; j++) {
+                tmpSelection.push(j);
+            }
+
+            continue;
+        }
+
+        tmpSelection.push(parseInt(tmp[i]));
+    }
+
+    // Remove duplicate
+    for (var i=0; i<tmpSelection.length; i++) {
+        if (ayahSelection.indexOf(tmpSelection[i]) !== -1) {
+            continue;
+        }
+
+        ayahSelection.push(tmpSelection[i]);
+    }
+
+    // Sort from lowest to highest
+    return ayahSelection.sort(function(a, b) {
+        return a - b;
+    });
+}
+
+
+/**
+ * Check exitense of a cookie.
+ *
+ * @param String name
+ * @param String value
+ * @return boolean
+ */
+function isCookieExists(name, value)
+{
+    if (document.cookie.split(';').filter(function(item) {
+        if (typeof value === 'undefined') {
+            return item.indexOf(name + '=') >= 0;
+        }
+
+        return item.indexOf(name + '=' + value) >= 0;
+    }).length) {
+        return true;
+    }
+
+    return false;
+};
+
+/**
+ * Write cookie and set the expiration to forever. It will only write once.
+ *
+ * @param String name
+ * @param String value
+ * @param Boolean checkWithValue
+ * @return void
+ */
+function writePermanentCookie(name, value, checkWithValue)
+{
+    var currentYear = (new Date()).getFullYear() + 3;
+    var expires = (new Date(currentYear, 12, 12)).toUTCString();
+    document.cookie = name + '=' + value + ';path=/;expires=' + expires;
+};
+
+/**
+ * Apply night mode
+ *
+ * @param boolean night
+ * @return void
+ */
+function applyNightMode(apply)
+{
+    var nightModeCss = 'nightmode';
+
+    if (apply === false) {
+        document.body.className = document.body.className.replace(nightModeCss, '');
+
+        writePermanentCookie('nightMode', '0');
+        return;
+    }
+
+    document.body.className = document.body.className + ' ' + nightModeCss;
+
+    writePermanentCookie('nightMode', '1');
+}
+
+/**
+ * Apply translation
+ *
+ * @param boolean apply
+ * @return void
+ */
+function applyTranslation(apply)
+{
+    var notranslationCss = 'notranslation';
+
+    if (apply === true) {
+        document.body.className = document.body.className.replace(notranslationCss, '');
+
+        writePermanentCookie('useTranslation', '1');
+        return;
+    }
+
+    document.body.className = document.body.className + ' ' + notranslationCss;
+
+    writePermanentCookie('useTranslation', '0');
+}
+
+/**
+ * Apply on double click for ayah element
+ *
+ * @return void
+ */
+function applyClickForBookmark()
+{
+    var ayahNumberElements = document.getElementsByClassName('link-mark-ayah');
+    var writeMarkedAyah = function(surahName, surahNumber, ayahNumber) {
+        var marked = confirm('Tandai sebagai terakhir dibaca Surah ' + surahName + ' ayat ' + ayahNumber + '?');
+        if (marked == false) {
+            return;
+        }
+
+        var lastReadCookieValue = surahName + ',' + surahNumber.toString() + ',' + ayahNumber.toString();
+        writePermanentCookie('lastRead', lastReadCookieValue);
+        document.getElementById('sidepage-item-last-marked').innerHTML = 'Surah ' + surahName + ' ayat ' + ayahNumber;
+        document.getElementById('last-read-link').href = '{{BASE_URL}}/' + surahNumber + '/#no' + ayahNumber;
+    };
+
+    var ayahInfo;
+    for (var i=0; i<ayahNumberElements.length; i++) {
+        ayahNumberElements[i].onclick = function(e)
+        {
+            ayahInfo = this.parentNode.parentNode.title.split(',');
+            writeMarkedAyah(ayahInfo[0], ayahInfo[1], ayahInfo[2]);
+
+            return false;
+        }
+    }
+
+    if (!isCookieExists('lastRead')) {
+        return;
+    }
+
+    ayahInfo = document.cookie.replace(/(?:(?:^|.*;\s*)lastRead\s*\=\s*([^;]*).*$)|^.*$/, "$1").split(',');
+    document.getElementById('sidepage-item-last-marked').innerHTML = 'Surah ' + ayahInfo[0] + ' ayat ' + ayahInfo[2];
+    document.getElementById('last-read-link').href = '{{BASE_URL}}/' + ayahInfo[1] + '/#no' + ayahInfo[2];
+}
+
+/**
+ * Audio murottal are taken from everyayah.com. Currently only support one reciter.
+ *
+ * @param int surahNumber
+ * @param int ayahNumber
+ * @param HTMLAudioElement audioButton
+ * @return void
+ */
+function playAudioMurottal(surahNumber, ayahNumber, audioButton)
+{
+    var reciterName = document.getElementById('murottal-reciter').value;
+    var baseMurottalUrl = '{{BASE_MUROTTAL_URL}}/' + reciterName + '/';
+    var murottalFile = (parseInt(surahNumber) * 1000 + parseInt(ayahNumber)).toString();
+    murottalFile = murottalFile.padStart(6, '0') + '.mp3';
+
+    if (previousPlayedButton === audioButton && !murottalAudioElement.ended) {
+        if (murottalAudioElement.paused) {
+            murottalAudioElement.play();
+            // Pause icon using double pipe character
+            audioButton.innerHTML = '<span class="icon-content"><b>||</b></span>';
+        } else {
+            murottalAudioElement.pause();
+            // pipe with black triangle icon
+            audioButton.innerHTML = '<span class="icon-content">|&#x25b6;</span>';
+        }
+
+        return;
+    }
+
+    if (previousPlayedButton !== null) {
+        // reset button back to Play icon
+        previousPlayedButton.innerHTML = '<span class="icon-content">&#x25b6;</span>';
+    }
+    previousPlayedButton = audioButton;
+
+    murottalAudioElement.src = baseMurottalUrl + murottalFile;
+    murottalAudioElement.play();
+
+    if (murottalLoopMode === 'ayah') {
+        murottalAudioElement.loop = true;
+    }
+
+    // Pause icon using double pipe character
+    audioButton.innerHTML = '<span class="icon-content"><b>||</b></span>';
+    murottalAudioElement.myCustomData = {
+        surahNumber: surahNumber,
+        ayahNumber: ayahNumber,
+        audioButton: audioButton
+    }
+    murottalAudioElement.removeEventListener('ended', afterAudioDoneCallback, false);
+    murottalAudioElement.addEventListener('ended', afterAudioDoneCallback, false);
+}
+
+/**
+ * Function apply function to play audio murottal
+ *
+ * @return void
+ */
+function applyClickForMurottal()
+{
+    var clickAudioElements = document.getElementsByClassName('murottal-audio-player');
+    for (var i=0; i<clickAudioElements.length; i++) {
+        clickAudioElements[i].onclick = function(e)
+        {
+            playAudioMurottal(
+                this.getAttribute('data-surah-number'),
+                this.getAttribute('data-ayah-number'),
+                this
+            );
+        }
+    }
+
+    var murottalOptionElements = document.getElementsByName('murottal-mode');
+    for (var i=0; i<murottalOptionElements.length; i++) {
+        murottalOptionElements[i].onclick = function(e) {
+            murottalLoopMode = this.value;
+
+            writePermanentCookie('murottalMode', this.value);
+
+            if (this.value === 'ayah') {
+                murottalAudioElement.loop = true;
+                return;
+            }
+
+            if (this.value === 'ayah-selection' && ayahSelection.length === 0) {
+                return;
+            }
+
+            murottalAudioElement.loop = false;
+        }
+
+        if (isCookieExists('murottalMode', murottalOptionElements[i].value)) {
+            murottalOptionElements[i].checked = true;
+            murottalLoopMode = murottalOptionElements[i].value;
+        }
+    }
+
+    if (isCookieExists('ayahSelection')) {
+        var ayahSelectionInCookie = document.cookie.replace(/(?:(?:^|.*;\s*)ayahSelection\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        document.getElementById('ayah-selection-input').value = ayahSelectionInCookie;
+        ayahSelection = parseAyahSelection(ayahSelectionInCookie);
+    }
+
+    if (isCookieExists('reciterIndex')) {
+        var reciterIndex = document.cookie.replace(/(?:(?:^|.*;\s*)reciterIndex\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        document.getElementById('murottal-reciter').selectedIndex = parseInt(reciterIndex);
+    }
+}
+
+document.getElementById('murottal-reciter').onchange = function(e)
+{
+    writePermanentCookie('reciterIndex', this.selectedIndex);
+}
+
+document.getElementById('ayah-selection-input').onkeyup = function(e)
+{
+    // Regex credit @see https://stackoverflow.com/a/45450540/2566677
+    var ayatRegex = new RegExp(/^[0-9]+(?:-[0-9]+)?(,[0-9]+(?:-[0-9]+)?)*$/gm);
+    if (!ayatRegex.test(this.value)) {
+        this.className = this.className.replace(' input-error', '') + ' input-error';
+        return;
+    }
+
+    this.className = this.className.replace(' input-error', '');
+    ayahSelection = parseAyahSelection(this.value);
+    writePermanentCookie('ayahSelection', this.value);
+}
+
+/**
+ * Jump to particular ayah when select element changes
+ */
+var gotoAyahElement = document.getElementById('goto-ayah');
+var onAyahPage = false;
+
+if (gotoAyahElement !== null) {
+    gotoAyahElement.onchange = function(e) {
+        window.location.href = this.value;
+    }
+
+    // Apply selected attribute
+    var gotoTafsirAyahElement = document.getElementsByClassName('goto-ayah-tafsir');
+    if (gotoTafsirAyahElement.length > 0) {
+        onAyahPage = true;
+        var currentAyah = parseInt(window.location.pathname.split('/')[2]);
+        var optionsEl = gotoTafsirAyahElement[0].options;
+
+        for (var i=0; i<optionsEl.length; i++) {
+            if (currentAyah - 1 === i) {
+                optionsEl[i].selected = true;
+            }
+        }
+    }
+
+    // Scroll to Next ayah on click
+    var allAyah = document.querySelectorAll('.ayah-text');
+    for (var i=0; i<allAyah.length; i++) {
+        allAyah[i].addEventListener('click', function(el) {
+            window.location.href = '#no' + this.parentNode.getAttribute('data-next-ayah-number');
+        });
+    }
+
+    // Go to next ayah when press ENTER
+    document.onkeyup = function(e) {
+        if (e.which === 13) { /* Deprecated - but I need to support my BB10 :) */
+            currentAyah = parseInt(window.location.hash.split('#no')[1]) || 0
+
+            if (currentAyah === allAyah.length) {
+                return;
+            }
+
+            e.preventDefault();
+            window.location.href = '#no' + (currentAyah + 1);
+        }
+    }
+}
+
+document.getElementById('translation').onclick = function(e)
+{
+    if (this.checked) {
+        applyTranslation(true);
+        return;
+    }
+
+    applyTranslation(false);
+}
+
+document.getElementById('nightmode').onclick = function(e)
+{
+    if (this.checked) {
+        applyNightMode(true);
+        return;
+    }
+
+    applyNightMode(false);
+}
+
+var searchElement = document.getElementById('search-keywords');
+
+if (searchElement !== null) {
+    document.getElementById('search-keywords').onkeyup = function(e)
+    {
+        var surahList = document.getElementsByClassName('surah-index-link');
+        var keyword = this.value.toLowerCase();
+
+        for (var i=0; i<surahList.length; i++) {
+            surahList[i].parentNode.style.display = 'block';
+
+            if (surahList[i].getAttribute('data-keywords').toLowerCase().indexOf(keyword) === -1) {
+                surahList[i].parentNode.style.display = 'none';
+            }
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function(e)
+{
+    applyClickForBookmark();
+    applyClickForMurottal();
+
+    if (isCookieExists('nightMode', '1')) {
+        applyNightMode(true);
+        document.getElementById('nightmode').checked = true;
+    }
+
+    if (isCookieExists('nightMode', '0')) {
+        applyNightMode(false);
+        document.getElementById('nightmode').checked = false;
+    }
+
+    // Translation is enabled by default
+    if (!onAyahPage) {
+        if (isCookieExists('useTranslation', '0')) {
+            applyTranslation(false);
+            document.getElementById('translation').checked = false;
+        }
+    }
+
+    if (onAyahPage) {
+        document.getElementById('translation').disabled = true;
+    }
+});
+</script>
+</body>
+</html>
